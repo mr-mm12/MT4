@@ -1,6 +1,3 @@
-# MT4
-Files like indicators and some things related to MetaTrader 4
-
 # RR Binazir Chart for MetaTrader 4
 
 **Author:** Mohammad Reza Mokhtari Kia  
@@ -21,21 +18,28 @@ Whenever you modify your SL or TP, the rectangles and RR label update automatica
 
 ## 🛠 Installation Instructions
 
-1. **Locate your MetaTrader 4 `Experts` folder:**  
-   Navigate to your MT4 data folder.  
-   Example path:
+### 1. Download the EA file
+Download the `RR binazirchart.mq4` file from the link below:  
+[RR binazirchart.mq4 on GitHub](https://github.com/mr-mm12/MT4/blob/main/RR%20binazirchart.mq4)  
+
+You can download it by either:  
+- Clicking the **three dots** in the top-right corner of the GitHub page and selecting **Download**, or  
+- Using the keyboard shortcut **Ctrl + Shift + S** to save the file.
+
+### 2. Locate your MetaTrader 4 `Experts` folder  
+Navigate to your MT4 data folder. Example path:  
 C:\Users<YourUserName>\AppData\Roaming\MetaQuotes\Terminal<YourTerminalID>\MQL4\Experts
-2. **Copy the EA file:**  
-Place the `RR binazirchart.mq4` file into the `Experts` folder.
 
-3. **Restart MetaTrader 4** (or refresh the Navigator).  
+### 3. Copy the EA file  
+Place the downloaded `RR binazirchart.mq4` file into the `Experts` folder.
 
-4. **Open the EA from the Navigator:**
-- Press **Ctrl + N** to open the Navigator panel.
-- Locate **RR binazirchart** under **Expert Advisors**.
+### 4. Open the EA in MetaTrader 4  
+- Restart MetaTrader 4 (or refresh the Navigator).  
+- Press **Ctrl + N** to open the Navigator panel.  
+- Locate **RR binazirchart** under **Expert Advisors**.  
 - Double-click it and click **OK** to attach it to your chart.
 
-5. **Start Trading:**  
+### 5. Start Trading  
 Open a trade (Buy or Sell).  
 You will now see the **entry, SL, TP rectangles** and the **RR ratio** in the **top-right corner** of the chart.
 
@@ -68,3 +72,4 @@ You can change colors, rectangle width, and label font in the EA **input paramet
 ---
 
 Enjoy monitoring your trades with a clear **Risk-to-Reward visualization**! 🚀
+س
